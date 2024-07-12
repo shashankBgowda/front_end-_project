@@ -1,0 +1,387 @@
+#moving{
+    background-color: black;
+    height:70px;
+    width: 0 auto;
+}
+#movinghead{
+    color:red;
+    font-size: 40px;
+}
+#firstcol{
+    height:100px;
+    margin: -0.5%;
+    width:0 auto;
+    background-color: rgba(240, 246, 247, 0.79);
+    display: flex;  /* Activates flexbox */
+    justify-content: space-around;  /* Distributes space evenly around items */
+    align-items: center;
+}
+
+#logo{
+    height:100px;
+    width:200px;
+}
+
+#home{
+    cursor: pointer; 
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+    font-size: 40px;
+}
+#home:hover{
+    background-size: 100% 5px;;
+}
+
+#NEW_ARRIVALS{
+    cursor: pointer; 
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+    font-size: 40px;
+}
+#NEW_ARRIVALS:hover{
+    background-size: 100% 5px;
+}
+
+#USED_CARS{
+    cursor: pointer; 
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+    font-size: 40px;
+}
+#USED_CARS:hover{
+    background-size: 100% 5px;
+}
+
+#accessory{
+    cursor: pointer; 
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+    font-size: 40px;
+}
+#accessory:hover{
+   background-size: 100% 5px;
+}
+
+#sineup{
+    cursor: pointer; 
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    transition: background-size 300ms ease-in-out;
+    font-size: 40px;
+}
+
+#sineup:hover{
+    background-size: 100% 5px;
+}
+
+
+#colsec{
+    background-color:azure;
+    height: 60px;
+    width: auto;
+    display: flex;  /* Activates flexbox */
+    justify-content: space-around;  /* Distributes space evenly around items */
+    align-items: center;
+}
+#search-bar {
+    border: 8px solid #c9dce9; 
+    border-radius: 25px;
+    overflow: hidden; /* Ensures rounded corners */
+}
+#search-bar input[type="text"] {
+    border: none; 
+    padding: 10px;
+    font-size: 16px;
+    outline: none; 
+    width: 200px; 
+    background-color: #ffffff;
+}
+#search-bar button {
+    background-color: #c0d5e3; 
+    color: white;
+    border-radius:left 30px;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+#search-bar button:hover {
+    background-color: #2980b9; 
+}
+#title{
+    color:cornflowerblue;
+    font-size: 60px;
+    margin: 0px 0px 0px 600px;
+    transition: transform 1.5s ease-in-out;
+    text-shadow: 3px 3px 10px rgb(182, 204, 215), -3px -3px 10px grey;
+}
+#title:hover{
+    transform: scale(1.2)
+}
+
+#seccol{
+    height:400px;
+    margin: 0.2%;
+    width:0 auto;
+    background-color:blanchedalmond;
+}
+
+#Banner{
+    height:450px;
+    width:2380px;
+}
+#textovrlap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+#brands{
+    height:100px;
+    margin:-0.5%;
+    width:0 auto;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-around;  /* Distributes space evenly around items */
+    align-items: center;
+}
+
+#maruthi{
+    height:50px;
+    width:60px;
+    padding:1%;
+    margin:0px 0px 30px 450px;
+    background-color:lavender;
+    border-radius:10px;
+    cursor: pointer; 
+}
+#maruimg{
+    height:100px;
+    width:110px;
+    margin:-25px;
+}
+
+#mahindra{
+    height:50px;
+    width:60px;
+    padding:1%;
+    margin:0px 0px 30px 0px;
+    background-color: lavender;
+    border-radius:10px;
+    cursor: pointer; 
+}
+#mahiimg{
+    height:100px;
+    width:110px;
+    margin:-25px;
+}
+
+#tata{
+    height:50px;
+    width:60px;
+    padding:1%;
+    margin:0px 0px 30px 0px;
+    background-color: lavender;
+    border-radius:10px;
+    cursor: pointer; 
+}
+#tataimg{
+    height:100px;
+    width:110px;
+    margin:-25px;
+}
+
+#honda{
+    height:60px;
+    width:60px;
+    padding:1%;
+    margin:0px 0px 30px 0px;
+    background-color: lavender;
+    border-radius:10px;
+    cursor: pointer; 
+}
+#honimg{
+    height:110px;
+    width:110px;
+    margin:-25px;
+}
+
+#toyota{
+    height:50px;
+    width:60px;
+    padding:1%;
+    margin:0px 0px 30px 0px;
+    background-color: lavender;
+    border-radius:0 30px 0 0;
+    cursor: pointer; 
+}
+#toyotaimg{
+    height:110px;
+    width:110px;
+    margin:-25px;
+}
+
+#manymore{
+    height:50px;
+    width:60px;
+    padding:1%;
+    border-color: rgb(248, 248, 248);
+    margin:0px 450px 30px 0px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 0 50px 0 0;
+    cursor: pointer; 
+}
+
+#button{
+    color:blue;
+    background-color: rgb(249, 247, 247);
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#runningtext{
+    color:#2980b9;
+    font-size: 30px;
+    height:80px;
+    width:0 auto;
+    background-color: black;
+    margin: -50px 0px 0px -12px;
+}
+#text{
+    color:red;
+    text-align: center;
+    font-size: 70px;
+}
+#ourservices{
+    height:500px;
+    width: 2380px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: -20px 0px 0px -10px;
+    text-align: center;
+}
+#services{
+    height:300px;
+    width: 0 auto;
+    margin-top: 1%;
+    margin: 0px 0px 0px 10px;
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+#servicesone{
+    position: relative;
+    background-color:#c0d5e3;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Ensure the content is organized vertically */
+    justify-content: flex-start; /* Align content to the top */
+    border-radius: 0 90px 0 90px;
+    margin-top: auto;
+    cursor: pointer;
+    font-size: 30px;
+    transition: transform 0.8s ease-in-out;
+    padding: 10px; 
+}
+#servicesone:hover{
+    transform: scale(1.1);
+}
+#ser1{
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#servicetwo{
+    position: relative;
+    background-color: rgb(42, 42, 165);
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* Ensure the content is organized vertically */
+    justify-content: flex-start; /* Align content to the top */
+    border-radius: 0 90px 0 90px;
+    margin-top: auto;
+    font-size: 30px;
+    transition: transform 0.8s ease-in-out;
+    padding: 10px; 
+}
+#servicetwo:hover{
+    transform: scale(1.1);
+}
+.ser2{
+    text-decoration: underline;
+    font-size: 40px;
+}
+#servicethree{
+    position: relative;
+    background-color: rgb(42, 165, 81);
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* Ensure the content is organized vertically */
+    justify-content: flex-start; /* Align content to the top */
+    border-radius: 0 90px 0 90px;
+    margin-top: auto;
+    font-size: 30px;
+    transition: transform 0.8s ease-in-out;
+    padding: 10px; 
+}
+#servicethree:hover{
+    transform: scale(1.1);
+}
+.ser3{
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#colfourimg{
+    height:400px;
+    width : 2360px;;
+    margin: -100px 0px 0px 0px;
+    filter:blur(4px);
+    display: flex; 
+    justify-content: space-around;
+}
+
+#copy{
+    display: flex;
+    padding:2%;
+    background-color: darkgrey;
+    justify-content: space-evenly;
+    color: cadetblue;
+    background-color: black;
+}
+#about{
+    cursor:pointer;
+}
+#contactus{
+    cursor:pointer;
+}
+#others{
+    cursor:pointer;
+}
+#footer{
+    background-color: black;
+    color:white;
+}
